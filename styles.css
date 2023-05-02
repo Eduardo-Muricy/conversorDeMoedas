@@ -7,20 +7,27 @@
 
 body {
     background-color: #e5e5e5;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 
 header {
     background: #1B83E2;
     height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
     width: 375px;
     height: 766px;
-
+    
+   
     background: #F4F4F4;
-    margin: 0 auto;
-    margin-top: 100px;
+    
 }
 
 h1 {
@@ -29,8 +36,8 @@ h1 {
     font-size: 24px;
     line-height: 18px;
     color: #F4F4F4;
-    text-align: center;
-    padding-top: 24px;
+    
+   
 }
 
 b {
@@ -106,10 +113,17 @@ button:active{
 section{
     border: 1px solid #1B83E2;
 border-radius: 4px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 15px;
 }
 
 .currency-container{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   gap: 2px;
     padding: 10px;
 }
 
@@ -131,6 +145,6 @@ color: #1B83E2;
 }
 
 .arrow-img{ 
-    margin:15px auto;
+    
     display: block;
 }
